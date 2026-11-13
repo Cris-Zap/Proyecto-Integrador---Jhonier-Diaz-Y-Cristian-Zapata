@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ElectroTech | Hacer Pedido</title>
+    <link rel="stylesheet" href="css/contacto.css">
+</head>
+<body>
+    <header>
+        <a href="index.html" class="logo">ELECTRO<span>TECH</span></a>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="productos.html">Productos</a></li>
+                <li><a href="nosotros.html">Nosotros</a></li>
+                <li><a href="contacto.html" class="activo">Hacer Pedido</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="form-box">
+            <h2>Registrar Pedido o Consulta</h2>
+            <p style="margin-bottom: 1.5rem; color: #64748b;">Completa tus datos para procesar tu solicitud en nuestro sistema.</p>
+            
+            <form action="#" method="POST" onsubmit="alert('¡Pedido registrado con éxito en ElectroTech!'); return false;">
+                <div class="form-group">
+                    <label for="nombre">Nombre Completo:</label>
+                    <input type="text" id="nombre" name="NombreCompleto" placeholder="Ej: Jhonier Diaz" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="correo">Correo Electrónico:</label>
+                    <input type="email" id="correo" name="Correo" placeholder="correo@ejemplo.com" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="telefono">Teléfono:</label>
+                    <input type="tel" id="telefono" name="Telefono" placeholder="3001234567" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="ciudad">Ciudad:</label>
+                    <select id="ciudad" name="Ciudad">
+                        <option value="Medellin" selected>Medellín</option>
+                        <option value="Bogota">Bogotá</option>
+                        <option value="Cali">Cali</option>
+                        <option value="Otra">Otra ciudad</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="producto">Producto de Interés:</label>
+                    <select id="producto" name="ProductoID">
+                        <option value="1">MSI Prestige 14 ($7.439.424)</option>
+                        <option value="2">Auriculares Gamer MSI ($300.000)</option>
+                        <option value="3">Smartwatch Garmin ($6.346.900)</option>
+                        <option value="5">Mouse Gamer MSI ($210.000)</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="mensaje">Mensaje o Instrucciones del Pedido:</label>
+                    <textarea id="mensaje" name="MensajeConsulta" rows="3" placeholder="Ej: Envío rápido por favor..."></textarea>
+                </div>
+
+                <button type="submit" class="btn" style="width: 100%;">Enviar Pedido</button>
+            </form>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 ElectroTech Store - Medellín, Colombia. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>

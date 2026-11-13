@@ -1,333 +1,61 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ElectroTech - Tienda de Electronica y Tecnologia</title>
-    <link rel="stylesheet" href="css/style.css">
+    <title>ElectroTech | Inicio</title>
+    <link rel="stylesheet" href="css/index.css">
 </head>
 <body>
-    <header class="encabezado">
-        <div class="contendedor encabezado-contenido">
-            <div class="logo">
-                <h2>Electro<span>Tech</span></h2>
-            </div>
-            <nav class="navegacion">
-                <ul class="menu">
-                    <li><a href="#inicio">Inicio</a></li>
-                    <li><a href="#nosotros">Nosotros</a></li>
-                    <li><a href="#productos">Productos</a></li>
-                    <li><a href="#servicios">Servicios</a></li>
-                    <li><a href="#galeria">Galeria</a></li>
-                    <li><a href="#contacto">Contacto</a></li>
-                </ul>
-            </nav>
-        </div>
+    <header>
+        <a href="index.html" class="logo">ELECTRO<span>TECH</span></a>
+        <nav>
+            <ul>
+                <li><a href="index.html" class="activo">Inicio</a></li>
+                <li><a href="productos.html">Productos</a></li>
+                <li><a href="nosotros.html">Nosotros</a></li>
+                <li><a href="contacto.html">Hacer Pedido</a></li>
+            </ul>
+        </nav>
     </header>
-    <section id="inicio" class="hero">
-        <div class="contenedor hero-contenido">
-            <div class="hero-texto">
-                <span class="etiqueta">Tecnologia de Vanguardia</span>
-                <h1>ElectroTech</h1>
-                <p class="eslogan">"La mejor tecnologia al alcance de tus manos"</p>
-                <p class="descripcion">
-                    somos la tienda de confianza en productos electronicos. Encuentra 
-                    lo ultimo en laptops, smartphones, accesorios, audios de alta fidelidad,
-                    y equpos de cómputo con envío rapido y garantía oficial.
-                </p>
-                <a href="#productos" class="boton boton-principal">Ver Ofertas</a>
-            </div>
-            <div class="hero-imagen">
-                <img src="img/Productos.jpeg" alt="Productos electronicos de ultima tecnologia">
-            </div>
-        </div>
-    </section>
-    <section id="nosotros" class="nosotros">
-        <div class="contenedor nosotros-contenido">
-            <div class="nosotros-imagen">
-                <img src="img/Nosotros.jpg" alt="Fundador de ElectroTech">
-            </div>
-            <div class="nosotros-texto">
-                <h2>¿Quienes Somos en ElectroTech?</h2>
-                <p>
-                    En <strong>ElectroTech</strong> nos apasiona acercar la innovación 
-                    a las personas. Contamos con más de 5 años ofreciendo dispositivos de las 
-                    marcas lideres mundiales con soporte especializado.
-                </p>
-                <p>
-                    <strong>¿A quien ayudamos?</strong> Ayudamos a estudiantes, gamers,
-                    profesionales y creadores de contenido a encontrar el equipo tecnológico
-                    ideal para potenciar sus proyectos.
-                </p>
-                <p>
-                    <strong>¿Que nos diferencia?</strong> Asesoria personalizada antes de
-                    comprar, productos 100% originales con garantia local y entregas el
-                    mismo dia en Medellín.
-                </p>
-            </div>
-        </div>
-    </section>
-    <section id="productos" class="productos">
-        <div class="contenedor">
-            <h2 class="titulo-seccion">Nuestros Productos Destacados</h2>
-            <p class="subtitulo-seccion">Explota los dispositivos electronicos más vendidos.</p>
-            <div class="productos-contenedor">
-                <article class="tarjeta-producto">
-                    <img src="img/Laptop.webp" alt="Laptop Pro Gaming">
-                    <div class="tarjeta-cuerpo">
-                        <h3>MSI Prestige N16 Flip AI</h3>
-                        <p>Pantalla tactil <strong>Tandem OLED de 16 pulgadas UHD+
-                            (3840 x 2400) con 120Hz</strong>, procesador <strong>
-                                NVIDIA RTX Spark N1X</strong>(20 Nucleos), <strong>
-                                128 GB de memoria unificada LPDDR5X</strong>(RAM),
-                                1 ranura M.2 SSD (NVMe PCle Gen 4), Ideal para
-                                desarrolladores, creadores de contenido y ejecutivos
-                                de alta productividad
-                        </p>
-                        <span class="precio">$7,439,424 COP</span>
-                        <a href="#contacto" class="boton boton-tarjeta">Comprar Ahora</a>
-                    </div>
-                </article>
-                <article class="tarjeta-producto">
-                    <img src="img/Diademas.png" alt="Diademas bluetooth Inalambricas">
-                    <div class="tarjeta-cuerpo">
-                        <h3>Auriculares MSI MAESTRO 500 Wireless</h3>
-                        <p>Cancelacion activa de ruido y Modo Transparencia ambiental,
-                            sonido de alta definicion y bateria de hasta 60 horas de 
-                            reproduccion continua.
-                        </p>
-                        <span class="precio">$300,000 COP</span>
-                        <a href="#contacto" class="boton boton-tarjeta">Comprar Ahora</a>
-                    </div>
-                </article>
-                <article class="tarjeta-producto">
-                    <img src="img/Reloj.png" alt="Reloj Inteligente Smartwatch">
-                    <div class="tarjeta-cuerpo">
-                        <h3>Smartwatch Garming Fénix 8</h3>
-                        <p>Sensor optimo mas avanzado para medir el ritmo cardiaco,
-                            resistencia al agua de <strong>hasta 40 metros de profundidad</strong>,
-                            <strong>GPS de Alta Precision</strong> y notifaciones
-                            inteligentes en tiempo real.
-                        </p>
-                        <span class="precio">$6,346,900 COP</span>
-                        <a href="#contacto" class="boton boton-tarjeta">Comprar Ahora</a>
-                    </div>
-                </article>
-                <article class="tarjeta-producto">
-                    <img src="img/Smartphone.png" alt="Smartpone Alta Gama">
-                    <div class="tarjeta-cuerpo">
-                        <h3>ASUS ROG Phone 9 Pro</h3>
-                        <p>Camara principal de 50MP, secundarias de 32MP con gran
-                            angular y teleobjetivo, frontal de 32MP optimizada para
-                            streaming, pantalla <strong>AMOLED de 6.7 pulgadas</strong>
-                            a 120Hz, Almacenamiento de 1TB con tecnologia ultrarrápida
-                            UFS 4.0, con carga rapida (HyperCharge) de 65W.
-                        </p>
-                        <span class="precio">$8,599,000 COP</span>
-                        <a href="#contacto" class="boton boton-tarjeta">Comprar Ahora</a>
-                    </div>
-                </article>
-                <article class="tarjeta-producto">
-                    <img src="img/Mouse.png" alt="Mouse Gamer Ergonomico">
-                    <div class="tarjeta-cuerpo">
-                        <h3>Mouse Gamer MSI VERSA 300 Wireless 8K</h3>
-                        <p>
-                            Sensor optico de alta precision de 26,000 DPI, bateria de
-                            hasta  196 horas y durabilidad de hasta 60 millones de clicks,
-                            alcanza los 8,000Hz de tasa de sondeo, iluminacion RGB personlizable.
-                        </p>
-                        <span class="precio">$210,000 COP</span>
-                        <a href="#contacto" class="boton boton-tarjeta">Comprar Ahora</a>
-                    </div>
-                </article>
-                <article class="tarjeta-producto">
-                    <img src="img/Tablet.png" alt="Tablet de Alta Gama">
-                    <div class="tarjeta-cuerpo">
-                        <h3>Tablet Nubia Red Magic Astra 2</h3>
-                        <p>
-                            Pantalla <strong>OLED de 9.06 pulgadas</strong> con resolucion
-                             2.4K, tasa de refresco de 185Hz, ideal para videojuegos
-                             competitivos, emulacion de consolas de alta gama y streams de
-                             videojuegos moviles.
-                        </p>
-                        <span class="precio">$3,496,244 COP</span>
-                        <a href="#contacto" class="boton boton-tarjeta">Comprar Ahora</a>
-                    </div>
-                </article>
-            </div>
-        </div>
-    </section>
-    <section id="servicios" class="beneficios">
-        <div class="contenedor">
-            <h2 class="titulo-seccion">Nuestros Servicios Adicionales</h2>
-            <div class="beneficios-contenedor">
-                <div class="tarjeta-beneficio">
-                    <img src="img/Mantenimiento.jpg" alt="Mantenimiento de computadores">
-                    <h3>Mantenimiento Técnico</h3>
-                    <p>Servicio preventivo y correctivo para computadores, laptops y
-                        equipos electronicos, con repuestos originales.
-                    </p>
+
+    <main>
+        <section class="hero">
+            <h1>Tecnología de alto rendimiento en <span>ElectroTech</span></h1>
+            <p>Encuentra laptops, periféricos gamer y dispositivos inteligentes con garantía certificada.</p>
+            <a href="productos.html" class="btn">Ver Catálogo Completo</a>
+        </section>
+
+        <h2>Productos Destacados</h2>
+        <div class="grid-productos">
+            <div class="card">
+                <div>
+                    <span class="categoria-tag">Laptops</span>
+                    <h3>MSI Prestige 14</h3>
+                    <p>Portátil ultradelgado ideal para desarrollo de software y diseño profesional.</p>
                 </div>
-                <div class="tarjeta-beneficio">
-                    <img src="img/Envios.jpg" alt="Envios rapidos a domicilio">
-                    <h3>Envio Express 24H</h3>
-                    <p>Entregas seguras a domicilio con empaque de protección en Medellín
-                        y envios nacionales a toda Colombia.
-                    </p>
+                <div>
+                    <p class="precio">$7.439.424 COP</p>
+                    <a href="contacto.html" class="btn">Solicitar Compra</a>
                 </div>
-                <div class="tarjeta-beneficio">
-                    <img src="img/Garantia.jpg" alt="Garantia extendida">
-                    <h3>Garantia y Soporte</h3>
-                    <p>Todos nuestros productos incluyen garantía directa de fábrica y
-                        soporte posventa para la configuración.
-                    </p>
+            </div>
+
+            <div class="card">
+                <div>
+                    <span class="categoria-tag">Wearables</span>
+                    <h3>Smartwatch Garmin Fenix</h3>
+                    <p>Reloj inteligente multideporte con GPS integrado y batería de larga duración.</p>
+                </div>
+                <div>
+                    <p class="precio">$6.346.900 COP</p>
+                    <a href="contacto.html" class="btn">Solicitar Compra</a>
                 </div>
             </div>
         </div>
-    </section>
-    <section class="seccion-tabla">
-        <div class="contenedor"></div>
-        <h2 class="titulo-seccion">Comparativa de Categorías</h2>
-        <p class="subtitulo-seccion">Revisa la disponibilidad, garantia y tipo de de envio por categoria</p>
-        <div class="tabla-contenedor">
-            <table>
-                <thead>
-                    <tr>
-                        <th>Categoría</th>
-                        <th>Tiempo de Garantía</th>
-                        <th>Tiempo de Entrega</th>
-                        <th>Stock Disponible</th>
-                        <th>Envio Gratis</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>Laptops y Cómputo</td>
-                        <td>12 a 24 Meses</td>
-                        <td>24 Horas</td>
-                        <td>Disponible</td>
-                        <td>Sí</td>
-                    </tr>
-                    <tr>
-                        <td>Smartphones y Tablets</td>
-                        <td>12 Meses</td>
-                        <td>24 Horas</td>
-                        <td>Disponible</td>
-                        <td>Sí</td>
-                    </tr>
-                    <tr>
-                        <td>Audio y Audifonos</td>
-                        <td>6 a 12 Meses</td>
-                        <td>24 a 48 Horas</td>
-                        <td>Disponible</td>
-                        <td>Compras > $200,000</td>
-                    </tr>
-                    <tr>
-                        <td>Perifericos Gamer</td>
-                        <td>6 Meses</td>
-                        <td>24 a 48 Horas</td>
-                        <td>Disponible</td>
-                        <td>Compras > $200,000</td>
-                    </tr>
-                    <tr>
-                        <td>Wearables (Smartwatch)</td>
-                        <td>12 Meses</td>
-                        <td>24 Horas</td>
-                        <td>Últimas Unidades</td>
-                        <td>Sí</td>
-                    </tr>
-                </tbody>
-            </table>
-        </div>
-    </section>
-    <section id="galeria" class="galeria">
-        <div class="contenedor">
-            <h2 class="titulo-seccion">Galería de Tecnología</h2>
-            <p class="subtitulo-seccion">Un vistazo a nuestras tiendas, productos e instalaciones</p>
-            <div class="galeria-contenedor">
-                <div class="galeria-item">
-                    <img src="img/LaptopMSI1.jpg" alt="Setup de cómputo con MSI">
-                </div>
-                <div class="galeria-item">
-                    <img src="img/Perifericos.jpeg" alt="Exhibición de circuitos y componentes MSI">
-                </div>
-                <div class="galeria-item">
-                    <img src="img/LaptopMSI2.jpg" alt="Espacio de trabajo moderno con computadora MSI">
-                </div>
-                <div class="galeria-item">
-                    <img src="img/Celular.jpeg" alt="Telefono celular inteligente de alta gama">
-                </div>
-                <div class="galeria-item">
-                    <img src="img/SetupMSI.jpeg" alt="Setup gamer profesional con computadora MSI">
-                </div>
-                <div class="galeria-item">
-                    <img src="img/LaptopMSI3.jpeg" alt="Computadora MSI en un entorno de trabajo">
-                </div>
-            </div>
-        </div>
-    </section>
-    <section id="contacto" class="contacto">
-        <div class="contenedor">
-            <h2 class="titulo-seccion">Contactanos o Realiza un Pedido</h2>
-            <p class="subtitulo-seccion">Escríbenos para cotizaciones, pedidos directos o dudas técnicas</p>
-            <form class="formulario-contacto">
-                <div class="campo">
-                    <label for="nombre">Nombre completo:</label>
-                    <input type="text" id="nombre" name="nombre" placeholder="Ej. Juan Perez" required>
-                </div>
-                <div class="campo">
-                    <label for="email">Correo electrónico:</label>
-                    <input type="email" id="correo" name="correo" placeholder="correo@ejemplo.com" required>
-                </div>
-                <div class="campo">
-                    <label for="telefono">Teléfono / WhatsApp:</label>
-                    <input type="tel" id="telefono" name="telefono" placeholder="300 000 0000" required>
-                </div>
-                <div class="campo">
-                    <label for="ciudad">Ciudad:</label>
-                    <input type="text" id="ciudad" name="ciudad" value="Medellín" required>
-                </div>
-                <div class="campo">
-                    <label for="servicio">Producto o servicio de interés:</label>
-                    <select name="servicio" id="servicio" required>
-                        <option value="" disabled selected>Selecciona una categoria</option>
-                        <option value="laptop">Laptops y Cómputo</option>
-                        <option value="audio">Audifonos y Audio</option>
-                        <option value="smartphones">Smartphones y Tablets</option>
-                        <option value="perifericos">Periféricos y Accesorios Gamer</option>
-                        <option value="mantenimiento">Servicio Técnico y Mantenimiento</option>
-                    </select>
-                </div>
-                <div class="campo">
-                    <label for="mensaje">Mensaje:</label>
-                    <textarea id="mensaje" name="mensaje" rows="5" placeholder="Escribe aquí los detalles de tu consulta o el producto que necesitas..." required></textarea>
-                </div>
-                <button type="submit" class="boton boton-enviar">Enviar Mensaje</button>
-            </form>
-        </div>
-    </section>
-    <footer class="pie-pagina">
-        <div class="contenedor pie-contenido">
-            <div class="pie-columna">
-                <h3>ElectroTech</h3>
-                <p class="eslogan-pie">"La mejor tecnologia al alcance de tus manos"</p>
-                <p>Tu tienda especializada en electrónica, cómputo y dispositivos inteligentes de alta calidad</p>
-            </div>
-            <div class="pie-columna">
-                <h4>Contacto</h4>
-                <p>Ubicacion: <strong>Medellín, Colombia</strong></p>
-                <p>Teléfono: <strong>(57) 301 186 3082</strong></p>
-                <p><Strong>Correo:</Strong> <a href="mailto:electrotech@empresa.com">electrotech@empresa.com</a></p>
-            </div>
-            <div class="pie-columna">
-                <h4>Siguenos</h4>
-                <p><strong>Instagram:</strong> <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer">@electrotech_co</href></p>
-                <p><strong>YouTube:</strong>ElectroTech Oficial</p>
-            </div>
-        </div>
-        <div class="derechos">
-            <p>&copy; 2026 ElectroTech. Todos los derechos reservados.</p>
-        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 ElectroTech Store - Medellín, Colombia. Todos los derechos reservados.</p>
     </footer>
 </body>
 </html>
